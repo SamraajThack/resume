@@ -8,12 +8,16 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+	<!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css" media="all"> -->
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/owl.theme.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+	<!-- CSS only -->
+
 
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
@@ -48,7 +52,7 @@
 	<header class="header pull-left">
 
 		<!-- Mobile menu -->
-		<div class="mobile-bar visible-sm visible-xs">
+		<div class="mobile-bar d-md-none">
 			<div class="hamburger-menu">
 				  <div class="bar"></div>	
 			</div>
@@ -79,8 +83,9 @@
 				
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#experience">Experience</a></li>
-				<li><a href="#education">Education</a></li>
 				<li><a href="#works">Projects</a></li>
+				<li><a href="#education">Education</a></li>
+				
 				
 				
 			</ul>
@@ -128,9 +133,10 @@
 			<!-- Intro end -->
 
 			<!-- Skills -->
-			<div class="skills">
+			<div class="skills" >
+				
 
-				<div class="row">
+				<!-- <div class="row">
 
 					<div class="col-md-4 col-sm-6 col-xs-12 item">
 						<div class="skill-info clearfix">
@@ -201,9 +207,80 @@
 						</div>
 					</div>
 
+				</div> -->
+
+				<br/>
+				<!-- CSS only -->
+
+
+				<div class="row">
+				
+
+				<div class="card col-md-3  col-sm-12 ">
+					<div class="card-header">
+						Languages
+					</div>
+					
+					<div class="card-body">
+					
+					  <ul>
+						  <li>JavaScript</li>
+						  <li>Python</li>
+						  <li>Java</li>
+						  <li>HTML</li>
+						  <li>CSS</li>
+
+
+					  </ul>
+					  
+					</div>
 				</div>
 
+				<div class="card col-md-3 ms-md-5 col-sm-12">
+					<div class="card-header">
+						Technologies
+					</div>
+					
+					<div class="card-body">
+					
+					  <ul>
+						  <li>React.js</li>
+						  <li>Node.js</li>
+						  <li>GraphQl</li>
+						  <li>REST API</li>
+						  <li>Docker</li>
+						  
+
+
+					  </ul>
+					  
+					</div>
+				</div>
+
+				<div class="card col-md-3 ms-md-5 col-sm-12">
+					<div class="card-header">
+						Database
+					</div>
+					
+					<div class="card-body">
+					
+					  <ul>
+						  <li>MongoDB</li>
+						  <li>MySQL</li>
+						  <li>Firebase</li>
+						  <li>NoSQL</li>
+						 
+
+
+					  </ul>
+					  
+					</div>
+				</div>
+				
+				
 			</div>
+
+			
 			<!-- Skills end -->
 		</section>
 		<!-- Section About end -->
@@ -345,9 +422,9 @@
 								<span>Major in Computer Science | December 2020</span>
 							</div>
 						</div>
-						<div >
-							<div class="col-md-12 col-sm-12 col-xs-12 resume-it">
-								<h4>Coursework</h4>
+						<div class ="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<h5>Coursework</h5>
 							</div>
 							<div class="col-md-6 col-sm-12 col-xs-12">
 								<ul>
@@ -424,59 +501,7 @@
 			<!-- Carousel end -->
 
 		</section>
-		<!-- Section Testimonials end -->
-
-		<!-- Section Contact -->
-		<!-- <section id="contact" class="contact">
-			
-			<div class="section-header">
-				<h2>Get In Touch</h2>
-			</div> -->
-
-			<!-- Contact Form -->
-			<!-- <form method="post" action="form/contactform.php">
-
-				<div class="row">Row -->
-
-					<!-- <div class="col-md-6 col-sm-6 col-xs-12">Name input -->
-						<!-- <div class="form-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name" required>
-						</div>
-					</div> -->
-
-					<!-- <div class="col-md-6 col-sm-6 col-xs-12">Email input -->
-						<!-- <div class="form-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Your Email" required>
-						</div>
-					</div> -->
-
-					<!-- <div class="col-md-6 col-sm-6 col-xs-12">Phone input -->
-						<!-- <div class="form-group">
-							<input type="text" class="form-control" name="InputPhone" id="InputPhone" placeholder="Phone (optional)">
-						</div>
-					</div> -->
-
-					<!-- <div class="col-md-6 col-sm-6 col-xs-12">Subject input -->
-						<!-- <div class="form-group">
-							<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject">
-						</div>
-					</div> -->
-
-					<!-- <div class="col-md-12 col-sm-12 col-xs-12">Message textarea -->
-						<!-- <div class="form-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="6" placeholder="Message" required></textarea>
-						</div>
-					</div> -->
-
-				<!-- </div>Row end -->
-
-				<!-- <input type="submit" name="submit" id="submit" value="Send Message" class="btn btn-default pull-left">Send Button -->
-
-			<!-- </form> --> 
-			<!-- Contact Form end -->
-
-		<!-- </section> -->
-		<!-- Section Contact end -->
+		
 
 	</div>
 	<!-- Main Content end -->

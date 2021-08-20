@@ -377,7 +377,7 @@ li {
     color: #043442;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
 	letter-spacing: 3px;
     margin: 0;
@@ -494,6 +494,40 @@ li {
     border-radius: 3px;
 }
 
+.about .skills .card{
+     /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-left: 2px;
+  
+
+  /* Change background color */
+  background-color: white;
+  
+
+  border-radius: 5px;
+
+  /* Add space between the border and the content */
+  padding: 5px;
+
+  
+}
+
+.about .skills .card .card-header{
+    
+    padding-top: 10px;
+    padding-left: 10px;
+
+   
+    color:#043442;
+    margin-bottom: 10px;
+    
+}
+.about .skills .card-body{
+    padding-left: 10px;
+
+}
+
 /*-----------------------------------------------------------------*/
 /*                      SECTION RESUME                             */
 /*-----------------------------------------------------------------*/
@@ -509,7 +543,7 @@ li {
 }
 
 .resume .resume-item h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     margin: 0 0 10px;
 }
@@ -517,7 +551,7 @@ li {
 .resume .resume-item span {
     color: #666;
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     margin: 0 0 10px;
 }
